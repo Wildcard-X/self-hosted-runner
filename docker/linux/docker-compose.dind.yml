@@ -76,7 +76,7 @@ services:
           memory: 1G
 
   runner:
-    image: ghcr.io/stoxly-ai/self-hosted-runner:latest
+    image: ghcr.io/wildcard-x/self-hosted-runner:latest
     # Uncomment to build locally instead of pulling from GHCR
     # build: .
     restart: always
